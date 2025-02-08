@@ -1,0 +1,126 @@
+/* Jose Pintado Peña - Versión 1.2 - 01/02/25 */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* ----------------------------------------- general */
+
+body {
+    font-family: "Nunito", serif;
+    font-style: normal;
+    margin: 30px;
+}
+header, nav, footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 10px;
+}
+
+/* ------------------------------------------ header */
+
+header img {
+    width: 70px;
+    float: left;
+    margin: 3px 0px 0px 20px;
+}
+header img + img {
+    float: right;
+    margin: 3px 20px 0px 0px;
+}
+h1 {
+    color: darkred;
+    margin: 0px;
+}
+h2 {
+    color: darkgreen;
+    margin: 0px;
+}
+
+/* -------------------------------------------- nav */
+
+ul {
+    list-style-type: none;
+    margin: -5px;
+    padding: 0px;
+}
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
+li:hover {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline overline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 5px;
+}
+
+/* ------------------------------------ div section */
+
+article {
+    width: 33%;
+    height: 200px;
+    display: inline-block;
+    margin-bottom: 5px;
+    position: relative;
+}
+article:nth-child(1) {
+    background-color: rgba(162, 179, 188, 0.5);
+}
+article:nth-child(2) {
+    background-color: rgba(241, 151, 79, 0.5);
+}
+article:nth-child(3) {
+    background-color: rgba(208,61,107,0.5);
+}
+article:nth-child(4) {
+    background-color: rgba(195, 23, 65, 0.5);
+}
+article:nth-child(5) {
+    background-color: rgba(109, 104, 166, 0.5);
+}
+article:nth-child(6) {
+    background-color: rgba(156, 154, 203, 0.5);
+}
+article img {
+    width: 50px;
+    float: left;
+    margin: 10px 10px 100px 10px;
+}
+article img:hover {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+h3 {
+    margin: 16px;
+}
+article p {
+    height: 100px;
+    font-size: 0.8em;
+    margin: -10px 40px 0px 70px;
+    margin-left: 70px;
+    position: absolute;
+}
+
+/* ---------------------------------------- footer */
+
+footer {
+    margin-top: 5px;
+    padding: 0px;
+}
+footer img {
+    width: 30px;
+}
+footer img:hover {
+    width: 35px;
+    -webkit-transition: width 1s;
+    transition: width 1s;
+}
+hr {
+    margin: 0px;
+    border: 3px solid white;
+}
+footer p {
+    font-size: 0.8em;
+    margin: 1px;
+}
